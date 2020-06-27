@@ -1,0 +1,27 @@
+server:
+  port: 3000
+  log: "./access.log"
+
+mgo:
+  urls: 127.0.0.1:27017
+  db: dbname
+
+redis:
+  address: "127.0.0.1:6379"
+
+grpc:
+  beauty: "localhost:5555"
+
+oss:
+  endpoint: "https://oss-cn-shenzhen.aliyuncs.com"
+  access_key_id: "**"
+  access_key_secret: "***"
+  bucket: "test"
+
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  user: root
+  password:
+  db: test
+  debug: true
